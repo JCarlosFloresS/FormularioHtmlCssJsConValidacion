@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="form-wrap">
+        <section class="contact-info">
+            <section class="info-title">
+                <i class="fas fa-user-circle"></i>
+                <h2>Información <br>De Contacto</h2>
+            </section>
+
+            <section class="info-items">
+                <p><i class="fas fa-envelope"></i> info@correo.com</p>
+                <p><i class="fas fa-mobile-alt"></i>325669452</p>
+            </section>
+        </section>
+
+        <form action="" class="form-contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user-info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono *</label>
+                <input type="text" id="phone">
+
+                <label for="email">Coreeo electronico *</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea  id="mensaje" ></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+    </section>
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
